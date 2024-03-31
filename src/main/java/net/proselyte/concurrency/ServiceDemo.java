@@ -1,7 +1,8 @@
 package net.proselyte.concurrency;
 
 public class ServiceDemo {
-    public static void main(String[] args) {
+
+    public static void main(String... args) {
         Service service = new Service();
 
         service.readData();
